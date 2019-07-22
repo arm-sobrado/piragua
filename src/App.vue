@@ -11,9 +11,9 @@
     </p>  
     <ul>
       <input id="botonSuma" type="button" value="Añadir travesía"/>
-      <w> &nbsp </w>
+      <f> &nbsp; </f>
       <input id="botonVer" type="button" value="Ver salidas"/> 
-      <w> &nbsp </w>
+      <f> &nbsp; </f>
       <input id="botonElimina" type="button" value="Eliminar salida"/>
     </ul>
 
@@ -29,7 +29,12 @@ window.onload = function() {
 
 
 function botonSuma() {
-alert("Añade una travesía");
+var dia;
+var millas;
+dia=prompt('Dia de la travesía:','');
+millas=prompt('Millas de la travesía:','');
+alert(dia <br>  millas)
+
 }
 
 function botonVer() {
