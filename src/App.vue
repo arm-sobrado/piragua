@@ -1,19 +1,52 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1><b> Cuaderno de bitácora de la piragua </b></h1>
+    <br>
+    <img alt="piragua logo" src="./assets/logoPiragua.jpg">
+    <main msg="Cuaderno de bitácora de la piragua"/>
+  
+<!--  <h1>{{ msg }}</h1> -->
+    <p>
+      Anotaciones de las salidas con la piragua trovatoril.
+    </p>  
+    <ul>
+      <input id="botonSuma" type="button" value="Añadir travesía"/>
+      <w> &nbsp </w>
+      <input id="botonVer" type="button" value="Ver salidas"/> 
+      <w> &nbsp </w>
+      <input id="botonElimina" type="button" value="Eliminar salida"/>
+    </ul>
+
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+window.onload = function() {
+  document.getElementById("botonSuma").onclick=botonSuma
+  document.getElementById("botonVer").onclick=botonVer
+  document.getElementById("botonElimina").onclick=botonElimina
+};
+
+
+function botonSuma() {
+alert("Añade una travesía");
+}
+
+function botonVer() {
+alert("Chequea las travesías que has realizado");
+}
+
+function botonElimina() {
+alert("Elimina una travesía");
+}
+/* import muestra from './components/muestra.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    muestra
   }
-}
+} */
 </script>
 
 <style>

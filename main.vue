@@ -33,7 +33,7 @@ alert("Elimina una travesía");
 }
 
 export default {
-  name: 'HelloWorld',
+  name: 'main',
   props: {
     msg: String
   }

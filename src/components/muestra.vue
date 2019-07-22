@@ -5,7 +5,7 @@
       Anotaciones de las salidas con la piragua trovatoril.
     </p>  
     <ul>
-      <li><input id="botonSuma" type="button" value="Añadir travesía"/></li>
+      <li><input id="botonSuma" type="button" value="Añadir tragggvesía"/></li>
       <li><input id="botonVer" type="button" value="Ver salidas"/> </li>
       <li><input id="botonElimina" type="button" value="Eliminar salida"/> </li>
     </ul>
@@ -33,7 +33,7 @@ alert("Elimina una travesía");
 }
 
 export default {
-  name: 'HelloWorld',
+  name: 'muestra',
   props: {
     msg: String
   }
